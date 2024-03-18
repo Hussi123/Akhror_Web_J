@@ -1,0 +1,165 @@
+/* Modal */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+
+body {
+	font-family: 'Varela', sans-serif;
+	height: 100vh;
+	background: url('../images/bg.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.modal__wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: inherit;
+}
+
+.hidden{
+	display: none;
+}
+
+.modal__wrapper .btn {
+	border: 0;
+	background: transparent;
+	font-size: 20px;
+	color: white;
+	cursor: pointer;
+}
+
+.modal__wrapper .show-btn {
+	background: #474b4f;
+	padding: 8px 12px;
+	border-radius: 8px;
+	transition: background 0.5s;
+}
+
+.modal__wrapper .show-btn:hover {
+	background: #3a3d40;
+}
+
+
+/* modal */
+.modal {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 600px;
+	width: 100%;
+	background: #f4f4f4;
+	padding: 15px;
+	border-radius: 8px;
+
+	z-index: 100;
+}
+
+.modal__header {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.modal__header .close__btn {
+	color: #222;
+	font-size: 20px;
+}
+ 
+.modal__title{
+	margin-bottom: 15px;
+}
+
+
+.overlay{
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: rgba(0, 0 , 0 , 0.5);	
+	backdrop-filter: blur(5px);
+}
+
+/* Javascript 47 mavzu add va remove and ClassList methorlari */
+
+.hato {
+	padding: 10px;
+	color: crimson;
+	border: 1px dotted crimson;
+}
+
+.muvofiqqiyatli {
+	padding: 10px;
+	color: lightgreen;
+	border: 1px dotted lightgreen;
+}
+
+/* 56 dars live input validation javascript darlari  */
+
+.live_success {
+	border: 5px solid greenyellow;
+	box-shadow: 3px 4px 29px 3px rgba(0, 255, 8, 0.71);
+	-webkit-box-shadow: 3px 4px 29px 3px rgba(0, 255, 8, 0.71);
+	-moz-box-shadow: 3px 4px 29px 3px rgba(0, 255, 8, 0.71);
+}
+
+
+.live_error {
+	border: 5px solid tomato;
+	box-shadow: 3px 4px 29px 3px rgba(255, 0 , 0 , 0.71);
+	-webkit-box-shadow: 3px 4px 29px 3px rgba(255, 0 , 0 , 0.71);
+	-moz-box-shadow: 3px 4px 29px 3px rgba(255, 0, 0, 0.71) ;
+}
+
+
+/* 57 and 58 darlar */
+#insert { 
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;	
+}	
+
+.key{
+	border: 1px #222 solid;
+	background-color: #eee;
+	box-shadow:  1px 1px 3px rgba(0, 0 , 0 , 0.1);
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+	min-width: 150px;
+	position: relative;
+}
+
+.key small{
+	position: absolute;
+	top: -24px;
+	left: 0;
+	text-align: center;
+	width: 100%;
+	color: #555;
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

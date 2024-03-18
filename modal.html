@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Modal</title>
+
+	<!-- Fonst awesome -->
+	<link rel="stylesheet" href="https:cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+		integrity="sha512-KfkfwYDsLkIlwQp6LFn18zNdLGxu9YAA1QvwINks4PhcElQSvwINks4PhcElQSvqcyVLLD9aMhXd13ulQjoXtEKNosOWaZqXge10=="
+		crossorigin="anonymous" referrerpolicy="no-referrer">
+
+	<!-- STYLE-->
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+	<div class="modal__wrapper">
+		<button class="btn show-btn" id="show-btn">Show Modal</button>
+
+		<!-- Modal -->
+		<div class="modal hidden " id="modal">
+			<!-- Modal header -->
+			<div class="modal__header">
+				<h3>I Love BMw 💖</h3>
+				<button class="btn close__btn" id="close__btn">x<i class="fas fa-close"></i></button>
+			</div>
+
+			<!-- Modal body -->
+			<div class="modal__body">
+				<h2 class="modal__title">Modal Title</h2>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus fuga iure odio, eveniet quidem accusantium
+					magnam sunt, eius autem libero explicabo labore natus ipsam dignissimos alias velit consectetur. Voluptates
+					libero quia, eveniet optio aperiam veritatis temporibus ut perferendis beatae autem nam atque, ea excepturi?
+					Similique.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Overlay -->
+	<div class="overlay hidden" id="overlay"></div>
+
+
+
+
+	<!-- JS  -->
+	<script src="./JSDARSLAR/amalyotModal.js"> </script>
+</body>
+
+</html>
